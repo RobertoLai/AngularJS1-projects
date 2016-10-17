@@ -8,7 +8,7 @@ angular.module("app")
 .controller('ActivitiesCtrl',[ '$scope', 'ActivitiesService', function($scope, ActivitiesService){
     $scope.activities = ActivitiesService;
   }])
-.controller('ContactCtrl',[ '$scope', function($scope){    
-    $scope.image = 'sources/images/mafia.png';
+.controller('ContactCtrl',[ '$scope', function($scope){
+    $scope.image = 'mafia.png';
     $scope.title = 'Contact us, we will make you an offer you can\'t refuse...';
   }])
