@@ -1,0 +1,15 @@
+{
+  "name": "StylishDogs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A simple project for AngularJS",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 3000 -c-1 ./ "
+  }
+}

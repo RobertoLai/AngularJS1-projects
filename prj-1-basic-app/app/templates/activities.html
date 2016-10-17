@@ -1,0 +1,30 @@
+<div class="container">
+<div  class="row">
+	<ol class="breadcrumb">
+		<li><a href="#/main">Home</a></li>
+  		<li>What we do</li>
+  	</ol>
+</div>
+
+<div  class="row">
+	<div class="col-md-12">
+		<h2>What we do </h2>
+	</div>
+</div>
+
+	<div  class="row" >
+	<div ng-repeat="activity in activities.data">
+
+	<div class="col-md-3">
+		<div class="team-thumb text-center">
+			<img src="{{activity.image}}" class="app-image">
+			<h4 class="text-center">{{activity.title}}</h4>
+		</div>
+	</div>
+
+	</div>
+</div>
+
+
+
+</div>

@@ -1,0 +1,75 @@
+{
+"activities": [
+{
+ "id":1,
+ "title":"Sleep",
+ "image":"sources/images/sleeping.jpg"
+},
+{
+ "id":2,
+ "title":"Stare at you",
+ "image":"sources/images/lookingatyou.jpg"
+},
+{
+ "id":3,
+ "title":"Chat with friends",
+ "image":"sources/images/chatting.jpg"
+},
+{
+ "id":4,
+ "title":"Wait for you...",
+ "image":"sources/images/staring.jpg"
+}
+
+] ,
+"team": [
+{
+ "id":1,
+ "name":"Zeus",
+ "image":"sources/images/dog-seriously.jpg"
+},
+{
+ "id":2,
+ "name":"Aristoteles",
+ "image":"sources/images/dog-scary.jpg"
+},
+{
+ "id":3,
+ "name":"Epicurus",
+ "image":"sources/images/dog-tongue.jpg"
+},
+{
+ "id":4,
+ "name":"Eros",
+ "image":"sources/images/dog-shy.jpg"
+ },
+{
+ "id":5,
+ "name":"Pericles",
+ "image":"sources/images/pericles.jpg"
+},
+{
+ "id":6,
+ "name":"Odysseus",
+ "image":"sources/images/odysseus.jpg"
+ }
+
+],
+"leaders": [
+{
+ "id":2,
+ "name":"Odysseus",
+ "image":"sources/images/odysseus.jpg"
+},
+{
+ "id":3,
+ "name":"Thales",
+ "image":"sources/images/Thales.jpg"
+},
+{
+ "id":1,
+ "name":"Euclides",
+ "image":"sources/images/euclides.jpg"
+}
+]
+}

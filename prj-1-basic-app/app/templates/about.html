@@ -1,0 +1,29 @@
+<div class="container">
+<div  class="row">
+	<ol class="breadcrumb">
+		<li><a href="#/main">Home</a></li>
+  		<li>About us</li>
+	</ol>
+</div>
+
+<div  class="row">
+	<div class="col-md-12">
+		<h2>Our Technical Leaders</h2>
+	</div>
+</div>
+
+<div  class="row" >
+	<div ng-repeat="team in team.data">
+
+	<div class="col-md-3">
+		<div class="team-thumb text-center">
+			<img src="{{team.image}}" class="app-image">
+			<h4 class="text-center">{{team.name}}</h4>
+		</div>
+	</div>
+
+	</div>
+</div>
+
+
+</div>
