@@ -3,24 +3,23 @@ angular.module("app",['ngRoute'])
     $routeProvider.
     when('/main',
      {
-      templateUrl:'app/templates/main.html',
+      templateUrl:'templates/main.html',
       controller:'MainCtrl'
-     }) 
+     })
 	.when('/about',
 	 {
-      templateUrl:'app/templates/about.html',
+      templateUrl:'templates/about.html',
       controller:'AboutCtrl'
-     }) 
+     })
 	.when('/activities',
      {
-      templateUrl:'app/templates/activities.html',
+      templateUrl:'templates/activities.html',
       controller:'ActivitiesCtrl'
      })
 	.when('/contact',
      {
-      templateUrl:'app/templates/contact.html',
+      templateUrl:'templates/contact.html',
       controller:'ContactCtrl'
-     }) 
+     })
     .otherwise({redirectTo:'/main'})
   }])
-
