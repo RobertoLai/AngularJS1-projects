@@ -1,0 +1,79 @@
+{
+  "genres": [
+    "fable",
+    "fantasy",
+    "fiction",
+    "folklore",
+    "horror",
+    "humor",
+    "legend",
+    "metafiction",
+    "mystery",
+    "mythology",
+    "non-fiction",
+    "poetry",
+    "IT",
+    "Programming"
+  ],
+  "books": [
+    {
+      "title": "Functional Programming in JavaScript",
+      "author": "Luis Atencio",
+      "isbn": 1617292826,
+      "review": "Best introduction to Functional Programming for Javascripters!",
+      "rating": 5,
+      "genres": {
+        "Programming": true,
+        "IT": true
+      },
+      "id": "701c477c-7e03-4c14-a225-5ee384e3757f"
+    },
+    {
+      "title": "Javascript for Ninjas",
+      "author": "Riesig",
+      "isbn": 1617292850,
+      "review": "Finally the updated version is out!",
+      "rating": 5,
+      "genres": {
+        "IT": true,
+        "Programming": true
+      },
+      "id": "63183d31-d989-4e0d-a20b-c29db4b1a631"
+    },
+    {
+      "title": "Getting MEAN",
+      "author": "Simon Holmes",
+      "isbn": 1617292036,
+      "review": "Clearest way to be introduced in the MEAN Stack Web development",
+      "rating": 5,
+      "genres": {
+        "Programming": true
+      },
+      "id": "b6b54593-fc5a-40c6-901d-9f0220d9e938"
+    },
+    {
+      "title": "The Wisdom of the Myths: How Greek Mythology Can Change Your Life",
+      "author": "Luc Ferry",
+      "isbn": "0062215450",
+      "review": "You will finally discover the philosophy behind the Greek Myths",
+      "rating": 5,
+      "genres": {
+        "mythology": true
+      },
+      "id": "a0e92447-d97c-4b6c-a245-5ac605d8ab22"
+    },
+    {
+      "title": "Async & Performance",
+      "author": "Kyle Simpson",
+      "isbn": 1491904224,
+      "review": "All 6 books of the series \"You don't know Javascript\" are a must read",
+      "rating": 5,
+      "genres": {
+        "fiction": true,
+        "fantasy": true,
+        "folklore": true
+      },
+      "id": "3f86f898-b2e9-43ee-ba74-bcb86ef228e0"
+    }
+  ]
+}
