@@ -25,7 +25,8 @@ angular.module('prj2MyReadingListApp')
   ;
 
   /*
-  Alternative way of realizing this service: a service for every element of the json file
+  Alternative way of realizing this service:
+  a service for every element of the json file
 
   .factory('getBooksService', ['$http','dbUrl',function($http,dbUrl) {
   	var service = {};

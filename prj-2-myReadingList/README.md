@@ -23,8 +23,12 @@ In a terminal/console Window from the directory containing the source code:
 
  1. [yourpath]: npm install
  2. [yourpath]: bower install
- 3. [yourpath]: grunt to build
- 4. [yourpath]: grunt server to launch the application
+ 3. [yourpath]: grunt        (to build)
+ 4. [yourpath]: grunt server (to launch the application)
+
+If you want to buil a dist version use
+[yourpath]: grunt build
+and everything will be in the dist directory with all the js, css etc. merged.
 
 All your modifications on the code should be applied on the fly,
 if not repeat step 3 and 4.

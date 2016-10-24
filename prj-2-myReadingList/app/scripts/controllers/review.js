@@ -18,9 +18,7 @@ angular.module('prj2MyReadingListApp')
       genres: {}
     };
 
-    $scope.addReview = function(form, book) {
-      console.log(book);
-
+    $scope.addReview = function(form, book) {      
       booksstoreService
         .addReview(book)
         .then(function() {
