@@ -14,18 +14,17 @@ You must install a json-server
 
  1. npm install -g json-server
  2. move the dbjson directory in another directory and open there a console
- 3. launch the json server with
-   <yourpath>: json-server booksstores.json
- 4. you now have a bckend server at the address http:localhost:3000
+ 3. launch the json server with [yourpath]: json-server booksstores.json
+ 4. you now have a backend server at the address http:localhost:3000
 
 Frontend app:
 
 In a terminal/console Window from the directory containing the source code:
 
- 1. <yourpath>: npm install
- 2. <yourpath>: bower install
- 3. <yourpath>: grunt to build
- 4. <yourpath>: grunt server to launch the application
+ 1. [yourpath]: npm install
+ 2. [yourpath]: bower install
+ 3. [yourpath]: grunt to build
+ 4. [yourpath]: grunt server to launch the application
 
 All your modifications on the code should be applied on the fly,
 if not repeat step 3 and 4.
