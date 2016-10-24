@@ -1,5 +1,5 @@
 angular.module("app",['ngRoute'])
-.config(['$routeProvider', function($routeProvider){
+.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
     when('/main',
      {
